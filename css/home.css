@@ -6,7 +6,7 @@ body{
   max-height: 100vh;
   color: white;
 
-
+  overflow: hidden;
 
 }
 img{
@@ -20,18 +20,41 @@ img{
   border-bottom: 1vh solid #f7f7f7;
 
 }
+
+.background-image {
+  background-image: url(../images/master_page_photo.jpg);
+  background-size: cover;
+  position: absolute;
+  height: 98vh;
+  width: 105vw;
+  top: 6vh;
+  left: -2.5vw;
+  z-index: 0;
+    -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  overflow: hidden;
+}
+.login-wrap {
+  position: absolute;
+  height: 94vh;
+  width: 100vw;
+  top: 6vh;
+  left: 0;
+  z-index: 5;
+  overflow: hidden;
+}
 .login-area{
  /* background-image: url("images/master_page_photo.jpg");
   background-size: cover;*/
   height: 94vh;
-  background-image: url(../images/master_page_photo.jpg);
-  background-size: cover;
-  opacity: .3;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-
+  overflow: hidden;
 }
 
  input{
@@ -46,7 +69,7 @@ img{
 }
 
 .button{
-  margin-top: 10px;
+  margin: 0 auto;
   border: 1px solid white;
   border-radius: 10px;
   background-color:  #50B7BD;
@@ -55,8 +78,7 @@ img{
   width: 80px;
   padding: 5px 10px;
   font-weight: bold;
-
-
+  
 }
 
 
