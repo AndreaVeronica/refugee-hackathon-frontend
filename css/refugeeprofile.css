@@ -55,13 +55,30 @@ img {
   justify-content: center;
 }
 
+.rm {
+  color: red;
+}
+
 .wrap-tasklist {
   width: 25vw;
   margin-right: 3vw;
   flex: 0 1 auto;
 }
+#tasklist {
+  height: 30vh;
+  overflow: scroll;
+}
 #taskHeight{
+  font-family: 'georgia', serif;
   font-size: 1.6em;
+  font-weight: bold;
+}
+#tasklist li{
+  font-family: 'georgia', serif;
+  font-size: 1.6em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-bottom: solid black 1px;
 }
 .wrap-msg {
   width: 50vw;
@@ -71,6 +88,9 @@ img {
 
 #message-section {
   padding: 3px;
+  margin-bottom: 5px;
+  height: 30vh;
+  overflow: scroll;
 }
 
 #message-section article {
@@ -97,6 +117,11 @@ img {
 .message-entry {
   width: 48vw;
   margin: 0 auto;
+}
+
+#notes-section {
+  height: 30vh;
+  overflow: scroll;
 }
 
 #notes-section article {

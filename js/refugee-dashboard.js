@@ -28,3 +28,65 @@ function fillCoSponsorCard(obj) {
 	$('.contact-cell p').eq(8).text(obj.email);
 
 }
+
+$('#tasksubmit').click(function() {
+		
+});
+
+function submitForm() {
+	
+  var inputObj = $('#taskinput');
+  
+  if(inputObj.val() != "") {
+  	var inputVal = inputObj.val();
+  	$('#tasklist').append('<li>' + inputVal + ' <a class="rm">X</a></li>');
+  }
+  inputObj.val("");
+}
+
+function submitMessage() {
+	
+  var inputObj = $('.message-entry');
+  
+  if(inputObj.val() != "") {
+  	var inputVal = inputObj.val();
+  	var date = "April 3, 2016";
+  	$('#message-section').append('<article><h4 class="message-date">' + date + ' - CM</h4><p class="message-content">' + inputVal + ' </p></article>');
+  }
+  inputObj.val("");
+}
+
+function submitNotes() {
+	
+  var inputObj = $('.notes-entry');
+  
+  if(inputObj.val() != "") {
+  	var inputVal = inputObj.val();
+  	var date = "April 3, 2016";
+  	$('#notes-section').append('<article><h4 class="notes-date">' + date + '</h4><p class="notes-content">' + inputVal + ' </p></article>');
+  }
+  inputObj.val("");
+}
+
+$(document).on('click', '.rm', function (e) {
+   e.preventDefault();
+   $(this).parent().remove();
+});
+
+function onKeyDown(num) {
+	var key = window.event.keyCode;
+    // If the user has pressed enter
+    if (key == 13) {
+    	switch(num) {
+    		case 0:
+    			submitForm();
+    			break;
+    		case 1:
+    			submitMessage();
+    			break;
+    		case 2:
+    			submitNotes();
+    			break;
+    	}
+    }
+}
