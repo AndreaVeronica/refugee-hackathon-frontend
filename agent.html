@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Case Worker Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="css/agent.css" />
+
+    <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/agent.js"></script>
+</head>
+
+<body>
+    <div class='banner'>
+        <h1>Case Note</h1>
+        <img id='logoImg' src="logo.jpg" />
+    </div>
+    <div class='search'>
+        <div id='fName'>
+            <label for='name'>Name</label>
+            <input type='text' id='name' name='name'>
+            <br/>
+        </div>
+        <div id='castNum'>
+            <label for='caseNum'>Case #</label>
+            <input type='text' id='caseNum' name='caseNum'>
+            <br/>
+        </div>
+        <button id='button'>Search</button>
+        <div id='displayList'>
+            <ul>
+                <li>Nguyen Foy</li>
+                <li>Tang Xi</li>
+                <li>Abdule Xi</li>
+                <li>Ben Sacula</li>
+                <li>Tung Nyguen</li>
+                <li>Nguyen Foy</li>
+                <li>Tang Xi</li>
+                <li>Abdule Xi</li>
+                <li>Ben Sacula</li>
+            </ul>
+        </div>
+    </div>
+    <div class="refBox">
+        <div class="displayBox" id="box1">
+         <h3>Name: Nguyen Foy</h3>
+            <p>Address: 456 Phelps Dr.</p>
+            <p>Atlanta GA 30392</p>
+            <p>Contact phone: 678-123-3464</p>
+            <p>Email: abd@gmail.com</p>
+            <p>Origin: Vietnam</p>
+            <p>Preferred language: Vietnamese</p>
+
+        </div>
+        <div class="displayBox" id="box2">
+
+            <h3>Tasks to do</h3>
+            <ul>
+            <li><input type='checkbox'>Social security number application</li>
+            <li><input type='checkbox'>Submit medical forms</li>
+            <li><input type='checkbox'>Submit school application form</li>
+            <li><input type='checkbox'>Call Case worker Joe every Monday</li>
+            </ul>
+        </div>
+        <div class="displayBox" id="box3">
+            <h3>Messages</h3>
+            <p>Joe: Have you submitted the medical form yet?</p>
+            <p>Foy: No, sorry I forgot...</p>
+            <p>Joe: Please submit today by 3pm, thanks!</p>
+            <p>Joe: Also please remember to tell Wendy about the school form.</p>
+        </div>
+    </div>
+</body>
+
+</html>
