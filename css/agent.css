@@ -1,6 +1,6 @@
-body {
+    body {
         font-size: 10px;
-        background-color: light gray;
+        background-color: #f7f7f7;
     }
 
     h1 {
@@ -11,14 +11,13 @@ body {
     }
 
     .banner {
-        border: 3px black solid;
         padding: 10px;
         margin: 10px;
         height: 50px;
         font-family: 'georgia';
         font-size: 2em;
         color: white;
-        background-color: #0099CC;
+        background-color: #50B7BD;
     }
 
     .search {
@@ -54,7 +53,7 @@ body {
 .refBox {
    /*margin-left: 50px;*/
    height: 400px;
-   border: solid black 1px;
+
    width: 60vw;
    float:right;
    padding-left: 20px;
@@ -64,23 +63,29 @@ body {
 #box1 {
    /*height: 350px;*/
    width: 30%;
-   background-color: #0099CC ;
+   background-color: #50B7BD ;
    display: inline-block;
+   vertical-align: top;
+   border-radius: 10px;
 
 }
 
 #box2 {
    /*height: 350px;*/
    width: 30%;
-   background-color: #0099CC ;
+   background-color: #50B7BD ;
    display: inline-block;
+   vertical-align: top;
+   border-radius: 10px;
 }
 
 #box3 {
   /* height: 350px;*/
    width: 30%;
-   background-color: #0099CC ;
+   background-color: #50B7BD ;
    display: inline-block;
+   vertical-align: top;
+   border-radius: 10px;
 }
 
 
