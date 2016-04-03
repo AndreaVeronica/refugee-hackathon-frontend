@@ -3,18 +3,60 @@
 body{
   /*border-top: 5px solid red;
   border-bottom: 5px solid red ;*/
-  height: 1000px;
+  max-height: 100vh;
+  color: white;
 
 
+
+}
+img{
+  width: 60vw;
+  height:
 }
 
 .head-area{
+  height: 5vh;
+  background-color: #50B7BD;
+  border-bottom: 1vh solid #f7f7f7;
 
 }
-.wrap-home{
+.login-area{
  /* background-image: url("images/master_page_photo.jpg");
   background-size: cover;*/
-  height: 900px;
-  background-image: url("../images/master_page_photo.jpg");
+  height: 94vh;
+  background-image: url(../images/master_page_photo.jpg);
   background-size: cover;
+  opacity: .3;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
 }
+
+ input{
+    width: 250px;
+    height: 30px;
+    margin: 2px;
+
+ }
+
+.passwordIn{
+    margin-bottom: 20px;
+}
+
+.button{
+  margin-top: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color:  #50B7BD;
+  text-decoration: none;
+  color: #f7f7f7;
+  width: 80px;
+  padding: 5px 10px;
+  font-weight: bold;
+
+
+}
+
+
