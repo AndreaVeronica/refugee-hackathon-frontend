@@ -4,7 +4,7 @@ var jim = {
 	email : "fake@gmail.com"
 }
 
-
+//functions for contact database
 function fillRefugeeCard(obj) {
 
 	$('.contact-cell p').eq(0).text(obj.name);
@@ -28,10 +28,6 @@ function fillCoSponsorCard(obj) {
 	$('.contact-cell p').eq(8).text(obj.email);
 
 }
-
-$('#tasksubmit').click(function() {
-		
-});
 
 function submitForm() {
 	
