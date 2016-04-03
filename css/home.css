@@ -1,14 +1,20 @@
-* {
-  background-color: ;
 
-}
 
 body{
-  border-top: ;
-  border-bottom: ;
+  /*border-top: 5px solid red;
+  border-bottom: 5px solid red ;*/
+  height: 1000px;
+
+
 }
 
+.head-area{
+
+}
 .wrap-home{
-  background-image:
-  background-size:cover;
+ /* background-image: url("images/master_page_photo.jpg");
+  background-size: cover;*/
+  height: 900px;
+  background-image: url("../images/master_page_photo.jpg");
+  background-size: cover;
 }
