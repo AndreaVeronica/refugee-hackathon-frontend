@@ -1,96 +1,118 @@
-    body {
-        font-size: 10px;
-        background-color: #f7f7f7;
-    }
+body {
+  font-size: 10px;
+  background-color: #f7f7f7;
+}
 
-    h1 {
-        margin: 0px;
-        padding: 0px;
-        display: inline-block;
-        font-size: 50px;
-    }
+h1 {
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+  font-size: 50px;
+}
 
-    .banner {
-        padding: 10px;
-        margin: 10px;
-        height: 50px;
-        font-family: 'georgia';
-        font-size: 2em;
-        color: white;
-        background-color: #50B7BD;
-    }
+p {
+  margin: 5px 0 5px 0;
+}
 
-    .search {
-        margin: 40px;
-        border-color: blue;
-        text-align: left;
-        width: 25%;
-        display: inline-block;
-        font-size: 16px;
-    }
+.banner {
+  height: 15vh;
+  background-color: #50B7BD;
+  margin-bottom: 2.5vh;
+}
 
-    .button {
-        color: gray;
-    }
+#logoImg {
+  padding-top: 2.5vh;
+  height: 10vh;
+  margin-left: 2.5vw;
+}
 
-    #logoImg {
-        width: 50px;
-        height: 40px;
-        margin: 10px;
-        float: left;
-        margin-bottom: 10px;
-    }
+.search {
+  margin: 40px;
+  border-color: blue;
+  text-align: left;
+  width: 25%;
+  display: inline-block;
+  font-size: 16px;
+}
 
-    #displayList {
-        font-size: 16px;
-        margin-top: 10px;
-        overflow: scroll;
-        width: 250px;
-        height: 10em;
-        border: 1px black solid;
-    }
+.button {
+  color: gray;
+}
+
+#displayList {
+  font-size: 16px;
+  margin-top: 10px;
+  overflow: scroll;
+  width: 250px;
+  height: 10em;
+  border: 1px black solid;
+}
 
 .refBox {
-   /*margin-left: 50px;*/
-   height: 400px;
-
-   width: 60vw;
-   float:right;
-   padding-left: 20px;
+  /*margin-left: 50px;*/
+  height: 400px;
+  width: 60vw;
+  float: right;
+  padding-left: 20px;
   /* padding-top: 20px;*/
 }
 
 #box1 {
-   /*height: 350px;*/
-   width: 30%;
-   background-color: #50B7BD ;
-   display: inline-block;
-   vertical-align: top;
-   border-radius: 10px;
-
+  /*height: 350px;*/
+  width: 30%;
+  background-color: #50B7BD;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 10px;
 }
 
 #box2 {
-   /*height: 350px;*/
-   width: 30%;
-   background-color: #50B7BD ;
-   display: inline-block;
-   vertical-align: top;
-   border-radius: 10px;
+  /*height: 350px;*/
+  width: 30%;
+  background-color: #50B7BD;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 10px;
 }
 
 #box3 {
   /* height: 350px;*/
-   width: 30%;
-   background-color: #50B7BD ;
-   display: inline-block;
-   vertical-align: top;
-   border-radius: 10px;
+  width: 30%;
+  background-color: #50B7BD;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 10px;
 }
 
+.displayBox {
+  margin: 10px;
+  height: 350px;
+  position: relative;
+  padding: 5px;
+  box-sizing: border-box;
+}
 
-.displayBox{
-   margin: 10px;
-   height: 350px;
-   position: relative;
+.displayBox ul {
+  list-style: none;
+  padding: none !important;
+  padding-left: 0;
+}
+
+.displayBox ul li {
+  font-size: 1.6em;
+}
+
+.displayBox p {
+  font-size: 1.6em;
+}
+
+.displayBox h3 {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+a button {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
 }
