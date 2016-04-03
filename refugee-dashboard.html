@@ -5,6 +5,7 @@
   <title>
     Refugee Dashboard
   </title>
+  	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/refugeeprofile.css">
     <script src="js/jquery-2.2.2.min.js"></script>
@@ -16,89 +17,90 @@
 
 
   <div class="wrap-page">
+  	
+		  	<div class="top-row">
 
-  	<div class="top-row">
+			    <div class="contact-cell" id="refugeeCell">
+			      <img src="images/ref-1.jpg">
+			      <h3>Refugee</h3>
+			      <p>Sonja Andrea</p>
+			      <p>(123)456-7899</p>
+			      <p></p>
+			    </div>
 
-	    <div class="contact-cell" id="refugeeCell">
-	      <img src="images/fbsquare.png">
-	      <h3>Refugee</h3>
-	      <p>Sonja Andrea</p>
-	      <p>(123)456-7899</p>
-	      <p></p>
-	    </div>
+			    <div class="contact-cell" id="caseManagerCell">
+			      <img src="images/ref-1.jpg">
+			      <h3>Case Manager</h3>
+			      <p>Jill Smith</p>
+			      <p>(123)456-7899</p>
+			      <p></p>
+			    </div>
 
-	    <div class="contact-cell" id="caseManagerCell">
-	      <img src="images/fbsquare.png">
-	      <h3>Case Manager</h3>
-	      <p>Jill Smith</p>
-	      <p>(123)456-7899</p>
-	      <p></p>
-	    </div>
+			    <div class="contact-cell" id="coSponsorCell">
+			      <img src="images/ref-1.jpg">
+			      <h3>Co-Sponsor</h3>
+			      <p>Bob Greene</p>
+			      <p>(123)456-7899</p>
+			      <p></p>
+			    </div>
 
-	    <div class="contact-cell" id="coSponsorCell">
-	      <img src="images/fbsquare.png">
-	      <h3>Co-Sponsor</h3>
-	      <p>Bob Greene</p>
-	      <p>(123)456-7899</p>
-	      <p></p>
-	    </div>
+		    </div>
 
-    </div>
+		    <div class="contact-row">
 
-    <div class="contact-row">
+		    	<div class="wrap-tasklist">
+		    		<h3 id="taskHeight">TaskList</h3>
+		    		<ul id="tasklist">
+		    			<!--<li>Task One</li>
+		    			<li>Task Two</li>
+		    			<li>Task Three</li>
+		    			<li>Task Four</li>-->
+		    		</ul>
+		    		<input></input>
+		    	</div>
 
-    	<div class="wrap-tasklist">
-    		<h3>TaskList</h3>
-    		<ul id="tasklist">
-    			<!--<li>Task One</li>
-    			<li>Task Two</li>
-    			<li>Task Three</li>
-    			<li>Task Four</li>-->
-    		</ul>
-    		<input></input>
-    	</div>
+		    	<div class="wrap-msg">
+		    		<div id="message-section">
+		    			<article>
+		    				<h4 class="message-date">May 15, 2016</h4>
+		    				<p class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque accumsan id ligula id ultrices. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis venenatis ligula, vitae tempor mauris. Pellentesque posuere nunc in ultricies sodales.</p>
+		    			</article>
+		    			<article>
+		    				<h4 class="message-date">May 21, 2016</h4>
+		    				<p class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque accumsan id ligula id ultrices. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis venenatis ligula, vitae tempor mauris. Pellentesque posuere nunc in ultricies sodales.</p>
+		    			</article>
+		    			<article>
+		    				<h4 class="message-date">May 24, 2016</h4>
+		    				<p class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque accumsan id ligula id ultrices. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis venenatis ligula, vitae tempor mauris. Pellentesque posuere nunc in ultricies sodales.</p>
+		    			</article>
+		    		</div>
+		    		<textarea class="message-entry">Enter your message here...</textarea>
+		    	</div>
 
-    	<div class="wrap-msg">
-    		<div id="message-section">
-    			<article>
-    				<h4 class="message-date">May 15, 2016</h4>
-    				<p class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque accumsan id ligula id ultrices. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis venenatis ligula, vitae tempor mauris. Pellentesque posuere nunc in ultricies sodales.</p>
-    			</article>
-    			<article>
-    				<h4 class="message-date">May 21, 2016</h4>
-    				<p class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque accumsan id ligula id ultrices. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis venenatis ligula, vitae tempor mauris. Pellentesque posuere nunc in ultricies sodales.</p>
-    			</article>
-    			<article>
-    				<h4 class="message-date">May 24, 2016</h4>
-    				<p class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque accumsan id ligula id ultrices. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis venenatis ligula, vitae tempor mauris. Pellentesque posuere nunc in ultricies sodales.</p>
-    			</article>
-    		</div>
-    		<textarea class="message-entry">Enter your message here...</textarea>
-    	</div>
+		    </div>
 
-    </div>
+		    <div class="notes-row">
+		    	<div id="notes-section">
+		    			<article>
+		    				<h4 class="notes-date">May 15, 2016</h4>
+		    				<p class="notes-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque accumsan id ligula id ultrices. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis venenatis ligula, vitae tempor mauris. Pellentesque posuere nunc in ultricies sodales.</p>
+		    			</article>
+		    			<article>
+		    				<h4 class="notes-date">May 21, 2016</h4>
+		    				<p class="notes-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque accumsan id ligula id ultrices. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis venenatis ligula, vitae tempor mauris. Pellentesque posuere nunc in ultricies sodales.</p>
+		    			</article>
+		    			<article>
+		    				<h4 class="notes-date">May 24, 2016</h4>
+		    				<p class="notes-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque accumsan id ligula id ultrices. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis venenatis ligula, vitae tempor mauris. Pellentesque posuere nunc in ultricies sodales.</p>
+		    			</article>
+		    		</div>
+		            <textarea class="notes-entry">Enter your private notes here...</textarea>
+		    </div>
 
-    <div class="notes-row">
-    	<div id="notes-section">
-    			<article>
-    				<h4 class="notes-date">May 15, 2016</h4>
-    				<p class="notes-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque accumsan id ligula id ultrices. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis venenatis ligula, vitae tempor mauris. Pellentesque posuere nunc in ultricies sodales.</p>
-    			</article>
-    			<article>
-    				<h4 class="notes-date">May 21, 2016</h4>
-    				<p class="notes-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque accumsan id ligula id ultrices. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis venenatis ligula, vitae tempor mauris. Pellentesque posuere nunc in ultricies sodales.</p>
-    			</article>
-    			<article>
-    				<h4 class="notes-date">May 24, 2016</h4>
-    				<p class="notes-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque accumsan id ligula id ultrices. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis venenatis ligula, vitae tempor mauris. Pellentesque posuere nunc in ultricies sodales.</p>
-    			</article>
-    		</div>
-            <textarea class="notes-entry">Enter your private notes here...</textarea>
-    </div>
+		    <button>Documents</button>
+		
 
-    <button>Documents</button>
-
-  </div>
+	</div>
 
 
 </body>
