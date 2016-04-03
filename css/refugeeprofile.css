@@ -1,0 +1,158 @@
+body {
+  font-size: 10px;
+  background-color: #F7F7F7;
+}
+
+
+.top-row {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.contact-cell {
+  position: relative;
+  display: inline-block;
+  width: 25vw;
+  min-width: 300px;
+  height: 120px;
+  margin: 1vw;
+  padding: 10px;
+  background-color: #50B7BD;
+  box-shadow: 3px 3px 10px black;
+  color: #f7f7f7;
+  border-radius: 10px;
+}
+
+.contact-cell h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+  margin-bottom: 5px;
+}
+
+.contact-cell p {
+  font-family: 'georgia', serif;
+  font-size: 1.6em;
+  text-shadow: 1px 1px 2px black;
+}
+
+img {
+  float: left;
+  clear: all;
+  width: 5vw;
+  margin-right: 10px;
+  border: 1px solid black;
+}
+
+.contact-row {
+  display: flex;
+  margin-bottom: 20px;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.rm {
+  color: red;
+}
+
+.wrap-tasklist {
+  width: 25vw;
+  margin-right: 3vw;
+  flex: 0 1 auto;
+}
+#tasklist {
+  height: 30vh;
+  overflow: scroll;
+}
+#taskHeight{
+  font-family: 'georgia', serif;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+#tasklist li{
+  font-family: 'georgia', serif;
+  font-size: 1.6em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-bottom: solid black 1px;
+}
+.wrap-msg {
+  width: 50vw;
+  margin-left: 3vw;
+  flex: 0 2 auto;
+}
+
+#message-section {
+  padding: 3px;
+  margin-bottom: 5px;
+  height: 30vh;
+  overflow: scroll;
+}
+
+#message-section article {
+  border-bottom: solid 1px #d7d7d7;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.message-date {
+  font-family: 'georgia', serif;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+.message-date:after {
+  content: " -";
+}
+
+.message-content {
+  font-family: 'georgia', serif;
+  font-size: 1.6em;
+}
+
+.message-entry {
+  width: 48vw;
+  margin: 0 auto;
+}
+
+#notes-section {
+  height: 30vh;
+  overflow: scroll;
+}
+
+#notes-section article {
+  border-bottom: solid 1px #d7d7d7;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.notes-date {
+  font-family: 'georgia', serif;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+.notes-date:after {
+  content: " -";
+}
+
+.notes-content {
+  font-family: 'georgia', serif;
+  font-size: 1.6em;
+}
+
+.notes-row {
+  margin: 0 auto;
+  width: 81vw;
+}
+.notes-entry{
+  width: 81vw;
+}
+
+button {
+  margin-top: 20px;
+  background-color: gray;
+}
